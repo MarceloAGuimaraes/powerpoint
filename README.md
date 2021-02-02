@@ -76,8 +76,4 @@ Once this is complete, you should be able to run the test suite:
 
 ## Bug Reporting
 
-Please use the [Issues](https://github.com/pythonicrubyist/powerpoint/issues) page to report bugs or suggest new enhancements.
-
-## License
-
-Powerpoint has been published under [MIT License](https://github.com/pythonicrubyist/powerpoint/blob/master/LICENSE.txt)
+Please use the [Issues](https://github.com/MarceloAGuimaraes/powerpoint/issues) page to report bugs or suggest new enhancements.
