@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <p:sldLayout preserve="1" type="title" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
-  <p:cSld name="Title Slide">
+  <p:cSld name="Title and Content">
     <p:spTree>
       <p:nvGrpSpPr>
         <p:cNvPr id="1" name=""/>
@@ -22,15 +22,10 @@
             <a:spLocks noGrp="1"/>
           </p:cNvSpPr>
           <p:nvPr>
-            <p:ph type="ctrTitle"/>
+            <p:ph type="title"/>
           </p:nvPr>
         </p:nvSpPr>
-        <p:spPr>
-          <a:xfrm>
-            <a:off x="685800" y="2130425"/>
-            <a:ext cx="7772400" cy="1470025"/>
-          </a:xfrm>
-        </p:spPr>
+        <p:spPr/>
         <p:txBody>
           <a:bodyPr/>
           <a:lstStyle/>
@@ -45,118 +40,51 @@
       </p:sp>
       <p:sp>
         <p:nvSpPr>
-          <p:cNvPr id="3" name="Subtitle 2"/>
+          <p:cNvPr id="3" name="Content Placeholder 2"/>
           <p:cNvSpPr>
             <a:spLocks noGrp="1"/>
           </p:cNvSpPr>
           <p:nvPr>
-            <p:ph idx="1" type="subTitle"/>
+            <p:ph idx="1"/>
           </p:nvPr>
         </p:nvSpPr>
-        <p:spPr>
-          <a:xfrm>
-            <a:off x="1371600" y="3886200"/>
-            <a:ext cx="6400800" cy="1752600"/>
-          </a:xfrm>
-        </p:spPr>
+        <p:spPr/>
         <p:txBody>
           <a:bodyPr/>
-          <a:lstStyle>
-            <a:lvl1pPr algn="ctr" indent="0" marL="0">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl1pPr>
-            <a:lvl2pPr algn="ctr" indent="0" marL="457200">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl2pPr>
-            <a:lvl3pPr algn="ctr" indent="0" marL="914400">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl3pPr>
-            <a:lvl4pPr algn="ctr" indent="0" marL="1371600">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl4pPr>
-            <a:lvl5pPr algn="ctr" indent="0" marL="1828800">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl5pPr>
-            <a:lvl6pPr algn="ctr" indent="0" marL="2286000">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl6pPr>
-            <a:lvl7pPr algn="ctr" indent="0" marL="2743200">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl7pPr>
-            <a:lvl8pPr algn="ctr" indent="0" marL="3200400">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl8pPr>
-            <a:lvl9pPr algn="ctr" indent="0" marL="3657600">
-              <a:buNone/>
-              <a:defRPr>
-                <a:solidFill>
-                  <a:schemeClr val="tx1">
-                    <a:tint val="75000"/>
-                  </a:schemeClr>
-                </a:solidFill>
-              </a:defRPr>
-            </a:lvl9pPr>
-          </a:lstStyle>
+          <a:lstStyle/>
           <a:p>
+            <a:pPr lvl="0"/>
             <a:r>
               <a:rPr lang="en-US" smtClean="0"/>
-              <a:t>Click to edit Master subtitle style</a:t>
+              <a:t>Click to edit Master text styles</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="1"/>
+            <a:r>
+              <a:rPr lang="en-US" smtClean="0"/>
+              <a:t>Second level</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="2"/>
+            <a:r>
+              <a:rPr lang="en-US" smtClean="0"/>
+              <a:t>Third level</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="3"/>
+            <a:r>
+              <a:rPr lang="en-US" smtClean="0"/>
+              <a:t>Fourth level</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr lvl="4"/>
+            <a:r>
+              <a:rPr lang="en-US" smtClean="0"/>
+              <a:t>Fifth level</a:t>
             </a:r>
             <a:endParaRPr lang="en-US"/>
           </a:p>
