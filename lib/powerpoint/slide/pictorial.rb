@@ -36,7 +36,6 @@ module Powerpoint
         new_width = default_width < image_width ? default_width : image_width
         ratio = new_width / image_width.to_f
         new_height = default_height
-        puts "x: #{(slide_width / 2) - (new_width/2)}"
         {x: (slide_width / 2) - (new_width/2), y: pixle_to_pt(120), cx: new_width, cy: new_height}
       end
       private :default_coords
