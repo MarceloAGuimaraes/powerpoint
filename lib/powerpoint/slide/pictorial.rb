@@ -28,14 +28,14 @@ module Powerpoint
       end
 
       def default_coords
-        slide_width = pixle_to_pt(600)
-        default_width = pixle_to_pt(520)
-        default_height = pixle_to_pt(353)
+        slide_width = pixle_to_pt(720)
+        default_width = pixle_to_pt(550)
+
         return {} unless dimensions = FastImage.size(image_path)
         image_width, image_height = dimensions.map {|d| pixle_to_pt(d)}
         new_width = default_width < image_width ? default_width : image_width
         ratio = new_width / image_width.to_f
-        new_height = default_height
+        new_height = (image_height.to_f * ratio).round
         {x: (slide_width / 2) - (new_width/2), y: pixle_to_pt(120), cx: new_width, cy: new_height}
       end
       private :default_coords
